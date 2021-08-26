@@ -1,5 +1,8 @@
 body{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+}
+.header__menu-burder{
+  display: none;
 }
 .header{
   margin: 30px 0;
@@ -426,8 +429,20 @@ body{
   .plus__item div span{
     font-size: 46px;
   }
+  .fruckt{
+    margin-top: 100px;
+  }
+  .fruckt__inner{
+    margin-top: 100px;
+  }
 }
 @media (max-width: 1500px) {
+  .title{
+    margin-top: 90px;
+  }
+  .header{
+    margin: 20px 0;
+  }
   .title__subtitle{
     font-size: 20px;
   }
@@ -448,8 +463,20 @@ body{
   .card__price{
     font-size: 32px;
   }
+  .plus{
+    margin-top: 90px;
+  }
+  .fruckt{
+    margin-top: 90px;
+  }
+  .fruckt__inner{
+    margin-top: 90px;
+  }
 }
 @media (max-width: 1400px) {
+  .title{
+    margin-top: 80px;
+  }
   .title__subtitle{
     font-size: 18px;
   }
@@ -473,8 +500,23 @@ body{
   .card__price{
     font-size: 30px;
   }
+  .plus{
+    margin-top: 80px;
+  }
+  .fruckt{
+    margin-top: 80px;
+  }
+  .fruckt__inner{
+    margin-top: 80px;
+  }
 }
 @media (max-width: 1300px) {
+  .title{
+    margin-top: 70px;
+  }
+  .header{
+    margin: 10px 0;
+  }
   .title__subtitle{
     font-size: 16px;
   }
@@ -501,8 +543,20 @@ body{
   .card__price{
     font-size: 28px;
   }
+  .plus{
+    margin-top: 70px;
+  }
+  .fruckt{
+    margin-top: 70px;
+  }
+  .fruckt__inner{
+    margin-top: 70px;
+  }
 }
 @media (max-width: 1200px) {
+  .title{
+    margin-top: 60px;
+  }
   .title__subtitle{
     font-size: 16px;
   }
@@ -533,8 +587,20 @@ body{
     font-size: 26px;
     line-height: 100%;
   }
+  .plus{
+    margin-top: 60px;
+  }
+  .fruckt{
+    margin-top: 60px;
+  }
+  .fruckt__inner{
+    margin-top: 60px;
+  }
 }
 @media (max-width: 990px){
+  .title{
+    margin-top: 50px;
+  }
   .title__title br{
     display: none;
   }
@@ -560,8 +626,29 @@ body{
   .plus__inner{
     margin-left: 0;
   }
+  .plus{
+    margin-top: 50px;
+  }
+  .fruckt{
+    margin-top: 50px;
+  }
+  .fruckt__inner{
+    margin-top: 50px;
+  }
 }
 @media (max-width: 768px){
+  .title{
+    margin-top: 40px;
+  }
+  .fruckt__inner{
+    margin-top: 40px;
+  }
+  .fruckt{
+    margin-top: 40px;
+  }
+  .plus{
+    margin-top: 40px;
+  }
   .title__btn{
     max-width: 132px;
   }
@@ -588,9 +675,11 @@ body{
     background: rgb(245, 246, 246);
     max-width: 100%;
     width: 100%;
-    height: 100vh;
-    overflow: auto;
+    height: 100%;
     z-index: 11;
+  }
+  .header__menu-burder{
+    display: block;
   }
   .header__list{
     display: block;
@@ -627,6 +716,12 @@ body{
   }
   .title__title{
     font-size: 60px;
+  }
+  .card__inner{
+    margin: 0 auto;
+  }
+  .fixed{
+    overflow: hidden;
   }
 }
 @media (max-width: 568px){
